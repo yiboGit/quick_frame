@@ -1,5 +1,8 @@
-// Author By ChaiHanLin. Date 10/14/19.
-// Contact me <ChaiHanLin@blued.com>
+/**
+* @Author: yibo_LastDay
+* @Date: 2022/10/15 11:33
+ */
+
 package util
 
 import (

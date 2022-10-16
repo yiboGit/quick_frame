@@ -1,5 +1,8 @@
-// Author By ChaiHanLin. Date 2019-08-06.
-// Contact me <ChaiHanLin@blued.com>
+/**
+* @Author: yibo_LastDay
+* @Date: 2022/10/15 11:31
+ */
+
 package util
 
 import (
@@ -15,6 +18,10 @@ func IsDirExists(path string) bool {
 	} else {
 		return fi.IsDir()
 	}
+}
+
+func MakeDir(path string) {
+	os.Mkdir(path, os.ModePerm)
 }
 
 func CheckFileIsExist(filename string) bool {

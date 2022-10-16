@@ -1,5 +1,8 @@
-// Author By ChaiHanLin. Date 2019-07-15.
-// Contact me <ChaiHanLin@blued.com>
+/**
+* @Author: yibo_LastDay
+* @Date: 2022/10/16 11:40
+ */
+
 package fmtsize
 
 import "testing"
