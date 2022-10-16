@@ -34,9 +34,9 @@ func (server *HttpServer) Start() {
 }
 
 func (server *HttpServer) RegisterRoute() {
-	groupStudent := server.HttpGin.Group("student")
+	//groupStudent := server.HttpGin.Group("student")
 
-	groupManager := server.HttpGin.Group("manager")
+	//groupManager := server.HttpGin.Group("manager")
 
-	groupSalesperson := server.HttpGin.Group("salesperson")
+	//groupSalesperson := server.HttpGin.Group("salesperson")
 }
